@@ -1,5 +1,3 @@
-# Clone - HaveIBeenPawned
-
 # ⭐️ Objective
 
 "I want to host information of breached data and provide a convenient interface for accessing information in a structured manner to the client."
@@ -10,8 +8,6 @@
   
 I want to build a platform-clone, much like HaveIBeenPwned (HIBP), that allows users to check if their email addresses or phone numbers have been exposed in publicly known data breaches. If a user finds their email or phone number on the site, it means that it was part of a database that was compromised in a past security incident.  
 
-
----
 
 ## ⭐️ How Data Is Collected
 
@@ -183,7 +179,7 @@ Core goal: **Support real usage & prepare for growth**
 
 ## ⭐️ Planning
 
-### **🎯 **Strategic Planning
+### 🎯 **Strategic Planning**
 
 - **Architecture Blueprint** – Define system components (e.g., ingestion service, search service, API gateway).
 - **Target Region & User Profiling** – Where will it launch? Who are your users?
@@ -193,21 +189,11 @@ Core goal: **Support real usage & prepare for growth**
 - **Infra Provider Selection** – AWS / GCP / Azure / Vercel / Cloudflare / Render
 - **Security Compliance Goals** – GDPR readiness, data minimization principles.
 
-### **🎯 **Development Planning
+### 🎯 **Development Planning**
 
 - **Detailed Engineering Plan -** HLD/LLD, DFD, DOD, ADR
 - **Code Repository & Branch Strategy** – GitHub/GitLab; trunk-based or GitFlow.
 - **Progress Tracking Tools** – Jira, Linear, Notion, GitHub Projects.
 - **CI/CD Pipeline Setup** – Auto testing, deployments, linting, containerization.
 - **Monitoring & Logging Stack** – Grafana, Prometheus, Sentry, Loki, etc.
-
----
-
-## ⭐️ Data Definition
-
-- Data Model (MVP Scope)
-    - Pawnage Data : Phone Number, Email, Address, Passwords
-    - Metadata : TBD
-
-
 
