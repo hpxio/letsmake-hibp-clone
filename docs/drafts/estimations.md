@@ -2,7 +2,7 @@
 
 Estimating the **Concurrency**, **TPS**, **Scaling Needs**, and perform **Back-of-the-Envelope (BOTE)** estimations for scale.
 
-> Note: The project is a scale-down model and is purely for learning purposes. Thes estimates here are based on enitrly ambigous requirements. A real platform of this sort will scale 10 or 100 times more.
+> Note: This project is a simplified prototype developed solely for educational purposes. The estimates provided are based on highly vague and undefined requirements. A fully developed platform of this nature would likely scale by a factor of 10 to 100 times or more.
 
 ## 1. **Concurrency & TPS Estimates**
 
@@ -32,7 +32,6 @@ Estimating the **Concurrency**, **TPS**, **Scaling Needs**, and perform **Back-o
 * Redis + PostgreSQL Read Replica(s) are a must.
 * **Auto-scaling APIs** behind ALB.
 * Optimize with:
-
   * k-anonymity cache in Redis (SHA-1 prefix → breach set).
   * Preindexed queries in PostgreSQL (on email, username).
 
@@ -40,7 +39,6 @@ Estimating the **Concurrency**, **TPS**, **Scaling Needs**, and perform **Back-o
 
 * **Writes are lower**: Admin upload, approve, process jobs.
 * Can be queue-based or batch processed.
-* Use S3 + ingestion Lambda jobs + RDS.
 
 ## 3. Back-of-the-Envelope Calculations (BOTE)
 
